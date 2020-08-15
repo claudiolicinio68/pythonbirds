@@ -3,14 +3,13 @@ import os
 import platform
 import time
 import sys
-from templates import FIM
+from templates imp
 
 try:
     import msvcrt
 except:
     pass
 import select
-
 
 eh_windows = platform.system() == 'Windows'
 apagar_tela = lambda: os.system('cls') if eh_windows else lambda: os.system('clear')
